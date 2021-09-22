@@ -11,4 +11,10 @@
     <None Remove="node_modules\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="src\app\core\services\" />
+    <Folder Include="src\app\pages\modais\" />
+    <Folder Include="src\assets\cidades\" />
+  </ItemGroup>
+
 </Project>

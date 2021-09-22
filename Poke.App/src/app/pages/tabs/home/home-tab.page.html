@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Poke</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide class="slide-ionic" *ngFor="let item of mainBanner;" (click)="selecionarCidade(item.id)">
+      <img src="{{item.url_imagem}}" />
+      <div class="nome_cidade">
+        {{item.nome_cidade}}
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="" *ngFor="let item of mainBanner;">
+    <img src="{{item.url_imagem}}" />
+  </div>
+</ion-content>
