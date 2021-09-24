@@ -9,3 +9,47 @@ ion-slide.slide-ionic {
     font-weight: 500;
   }
 }
+
+.linha {
+  margin-top: 1em;
+
+  .titulo {
+    padding-left: 9px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #f87e0f;
+  }
+
+  .cidades {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0%;
+    overflow-x: auto;
+    width: 100%;
+    display: -webkit-inline-box;
+
+    .button-cidades {
+      width: 48%;
+      padding: 1%;
+      height: auto;
+      margin-right: 2%;
+
+      img {
+        width: 100%;
+        height: auto;
+        padding: 0% 3%;
+      }
+
+      h4 {
+        margin: 5px 0;
+        font-size: 0.7em;
+        text-align: center;
+        font-weight: 500;
+        color: #f87e0fc9;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

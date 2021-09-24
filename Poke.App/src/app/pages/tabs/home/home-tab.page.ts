@@ -13,16 +13,27 @@ export class HomeTab {
     speed: 400
   };
 
-  public mainBanner: any = [{
-    id: 1,
-    url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
-    nome_cidade: 'São Paulo'
-  },
+  public mainBanner: any = [
     {
-    id: 2,
-    url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
-    nome_cidade: 'Rio de Janeiro'
-  }
+      id: 1,
+      url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
+      nome_cidade: 'São Paulo'
+    },
+    {
+      id: 2,
+      url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
+      nome_cidade: 'Rio de Janeiro'
+    },
+    {
+      id: 1,
+      url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
+      nome_cidade: 'São Paulo'
+    },
+    {
+      id: 2,
+      url_imagem: '../../../../assets/cidades/sao-paulo.jpg',
+      nome_cidade: 'Rio de Janeiro'
+    }
   ]
 
   constructor(

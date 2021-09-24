@@ -17,7 +17,29 @@
     </ion-slide>
   </ion-slides>
 
-  <div class="" *ngFor="let item of mainBanner;">
-    <img src="{{item.url_imagem}}" />
+  <div class="linha">
+    <div class="titulo">
+      Promoções
+    </div>
+    <div class="cidades">
+      <div class="button-cidades" *ngFor="let item of mainBanner;">
+        <img src="{{item.url_imagem}}" />
+
+        <h4>{{item.nome_cidade}}</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="linha">
+    <div class="titulo">
+      Destinos
+    </div>
+    <div class="cidades">
+      <div class="button-cidades" *ngFor="let item of mainBanner;">
+        <img src="{{item.url_imagem}}" />
+
+        <h4>{{item.nome_cidade}}</h4>
+      </div>
+    </div>
   </div>
 </ion-content>
