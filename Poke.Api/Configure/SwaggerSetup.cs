@@ -68,7 +68,7 @@ namespace Poke.Api.Configure
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Poke");
-                c.RoutePrefix = string.Empty;
+                //c.RoutePrefix = string.Empty;
             });
         }
     }
